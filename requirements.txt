@@ -1,0 +1,40 @@
+# 모델 학습 관련 패키지
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+# catboost
+# mlflow
+optuna
+joblib
+
+# 데이터 전처리 관련 패키지
+requests
+beautifulsoup4
+lxml
+html5lib
+
+# 텍스트 전처리 관련 패키지
+transformers
+torch
+konlpy
+summa
+
+# 데이터 시각화 관련 패키지
+matplotlib
+seaborn
+plotly
+shap
+wordcloud
+dotenv
+streamlit-folium
+folium
+
+# 웹 어플리케이션 관련 패키지
+# fastapi
+# uvicorn
+streamlit
+
+# 파이썬 관련 패키지
+python-dotenv
