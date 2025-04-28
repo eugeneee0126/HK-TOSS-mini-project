@@ -40,3 +40,24 @@ git merge <feature_branch>
 # 5 원격 저장소 반영
 git push origin main
 ```
+
+## 🛠️ 3. 개발 프로세스
+/taste-chatbot
+├── crawler/
+│   ├── naver_scraper.py
+│   └── data/
+│       ├── stores.csv
+│       ├── menus.csv
+│       └── reviews.csv
+├── db/
+│   ├── db_schema.sql
+│   ├── insert_data.py
+│   └── database.db (or MySQL 연결)
+├── vectorstore/
+│   ├── embed_model.py
+│   ├── faiss_index/
+│   └── embed_data.py
+├── chatbot/
+│   ├── rag_pipeline.py
+│   └── app.py (Gradio/Streamlit)
+└── README.md
