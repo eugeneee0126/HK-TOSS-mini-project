@@ -21,9 +21,9 @@
 본 프로젝트는 효율적인 협업과 체계적인 개발을 위해 Gitflow 워크플로우를 기반으로 진행됩니다.
 
 ```bash
-# 1 최신 develop 브랜치 동기화
-git checkout develop
-git pull origin develop
+# 1 최신 main 브랜치 동기화
+git checkout main
+git pull origin main
 
 # 2 새로운 기능 브랜치 생성
 git checkout -b <feature_branch>
@@ -33,10 +33,10 @@ git add .
 git commit -m "커밋 메시지"
 
 # 4 develop 브랜치 병합 (충돌 확인 필수)
-git checkout develop
-git pull origin develop
+git checkout main
+git pull origin main
 git merge <feature_branch>
 
 # 5 원격 저장소 반영
-git push origin develop
+git push origin main
 ```
