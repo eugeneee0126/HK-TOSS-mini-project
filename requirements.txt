@@ -14,6 +14,8 @@ requests
 beautifulsoup4
 lxml
 html5lib
+playwright    # 추가됨
+nest_asyncio  # (선택) Streamlit이나 Jupyter에서 asyncio 충돌 방지용
 
 # 텍스트 전처리 관련 패키지
 transformers
