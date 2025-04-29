@@ -1,0 +1,46 @@
+### 아나콘다 프롬포트에서 사용하려는 env로 생성 및 이동 후
+### pip install -r requirements.txt 실행.
+### playwright를 사용하려면 playwright install 까지 실행.
+
+# 모델 학습 관련 패키지
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+# catboost
+# mlflow
+optuna
+joblib
+
+# 데이터 전처리 관련 패키지
+requests
+beautifulsoup4
+lxml
+html5lib
+playwright    # 추가됨
+nest_asyncio  # (선택) Streamlit이나 Jupyter에서 asyncio 충돌 방지용
+
+# 텍스트 전처리 관련 패키지
+transformers
+torch
+konlpy
+summa
+
+# 데이터 시각화 관련 패키지
+matplotlib
+seaborn
+plotly
+shap
+wordcloud
+dotenv
+streamlit-folium
+folium
+
+# 웹 어플리케이션 관련 패키지
+# fastapi
+# uvicorn
+streamlit
+
+# 파이썬 관련 패키지
+python-dotenv
