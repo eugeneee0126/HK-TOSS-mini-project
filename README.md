@@ -13,6 +13,7 @@
 상세 정보 제공: 맛집 이름, 종류, 평점, 설명, 주소, 연락처, 메뉴, 리뷰 등 풍부한 정보 제공
 
 ## 🧑‍💻 2. 참여자
+- [🔗](https://github.com/)이유진
 - [🔗](https://github.com/)오은수
 - [🔗](https://github.com/)윤태원
 - [🔗](https://github.com/)최민주
