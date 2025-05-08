@@ -1,0 +1,26 @@
+# Python 캐시 및 빌드 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.gradio/
+
+# 환경변수 파일
+.env
+
+# 데이터 결과물 (자동 생성되는 파일)
+data/stores.csv
+data/menus.csv
+data/reviews.csv
+data/reviews_final.csv
+data/store_info.json
+
+# Chroma Vector DB
+vectordb/chroma_reviews/
+
+# 임시 또는 사용하지 않는 크롤러 파일
+crawler/kakao_crawling.py
+
+ 
+ 
