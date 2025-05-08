@@ -1,0 +1,30 @@
+# 기본
+python-dotenv
+pandas
+
+# 크롤링
+requests
+playwright
+
+# LangChain 관련
+langchain>=0.2.0
+langchain-community
+chromadb
+
+# 임베딩 모델
+sentence-transformers
+huggingface-hub
+
+# OpenAI
+openai
+
+# Gradio 인터페이스
+gradio>=4.0
+
+# 기타
+tqdm
+scikit-learn         # (optional) 향후 유사도 분석 시 유용
+nest_asyncio         # (optional) Jupyter 실행 시 충돌 방지
+
+# pip install -r requirements.txt && playwright install 로 설치.
+# 가상환경 사용 중이라면 경로 확인.
